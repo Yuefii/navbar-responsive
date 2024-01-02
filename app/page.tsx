@@ -1,6 +1,6 @@
+"use client"
 import { Button } from "@/components/ui/button";
 import Navbar from "./components/Navbar/Index";
-import { CarouselSize } from "@/components/CarouselSize";
 
 const Page = () => {
   return (
@@ -10,7 +10,7 @@ const Page = () => {
         <div>
           <h1 className="text-2xl text-primary font-semibold text-center">COMING SOON</h1>
           <div className="flex justify-center items-center py-2">
-            <CarouselSize/>
+            <Button onClick={()=> alert("ok berhasil")}>Get Started</Button>
           </div>
         </div>
       </div>
